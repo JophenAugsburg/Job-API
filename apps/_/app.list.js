@@ -1,5 +1,5 @@
-const Job = require('../Job/app_main');
+const Tools = require('../Tools/app_main');
 
 module.exports.apps = [
-  Job
+  Tools,
 ];
