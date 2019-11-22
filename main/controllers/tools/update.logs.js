@@ -10,7 +10,7 @@ module.exports.updateLogs = async (
   id, model, type, messageNumber, logValue
 ) => updateLogs(id, model, type, messageNumber, logValue);
 
-updateLogs = (id, model, type, messageNumber, logValue) => {
+updateLogs = async (id, model, type, messageNumber, logValue) => {
   let logVal = '';
   if (logValue !== undefined) {
     logVal = logValue;
